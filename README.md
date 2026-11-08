@@ -33,5 +33,9 @@ Additional experiment notes and change logs may be linked here as they become pu
 ## Related Resources
 
 - [LINK](https://github.com/LiaofanLin-NOAA/rrfs_monitor) **RRFS Ensemble Monitor Repository**: Source code for the real-time ensemble monitoring webpage.
+  - Monitoring data are committed from HPC every 12 hours. Older commits are retained.
 - [LINK](https://github.com/LiaofanLin-NOAA/workflow_status) **Workflow Status Repository**: Source code for workflow status monitoring.
+  - Workflow status JSON files are committed from HPC every 10 minutes. Older commits are removed through force-pushing to limit repository history.
+
+
 
