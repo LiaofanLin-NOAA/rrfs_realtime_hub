@@ -27,8 +27,12 @@ This repository provides personal technical notes and links to RRFS real-time pr
 - **RRFS Workflow Status and Change Logs**: Real-time workflow monitoring and experiment documentation.
   - [LINK](https://liaofanlin-noaa.github.io/workflow_status/) **Workflow Status**: Real-time workflow monitoring for RRFSv2b-enkf, RRFSv2c-det, and RRFSv2s-det.
   - [LINK](https://liaofanlin-noaa.github.io/workflow_status/rrfsv2c_change_log.txt) **RRFSv2c Change Log**: Record of experiment configurations and updates.
+- **RRFS Observation Impact Monitor**: Hourly data assimilation diagnostics by RRFS experiment. The monitor currently includes results from the real-time RRFSv2c experiment, which assimilates only conventional observations, and from one-day retrospective experiments for May 27, 2024, which assimilate conventional observations and satellite data from ATMS, CrIS, and GOES-ABI.
+  - [LINK](https://liaofanlin-noaa.github.io/rrfs_obs_impact/) **Observation Impact**: Compare observation impact, observation counts, and impact per observation by data type over a selected period.
+  - [LINK](https://liaofanlin-noaa.github.io/rrfs_obs_impact/obs_impact_time_serioes.html) **OMB/OMA Time Series**: Track observation-minus-background (OMB) and observation-minus-analysis (OMA) departures by data type across hourly cycles.
 
 Additional experiment notes and change logs may be linked here as they become publicly available.
+
 
 ## Related Resources
 
@@ -36,6 +40,7 @@ Additional experiment notes and change logs may be linked here as they become pu
   - Monitoring data are committed from HPC every 12 hours. Older commits are retained.
 - [LINK](https://github.com/LiaofanLin-NOAA/workflow_status) **Workflow Status Repository**: Source code for workflow status monitoring.
   - Workflow status JSON files are committed from HPC every 10 minutes. Older commits are removed through force-pushing to limit repository history.
+- [LINK](https://github.com/LiaofanLin-NOAA/rrfs_obs_impact) **RRFS Observation Impact Monitor Repository**: Source code and hourly diagnostic text files.
 
 
 
