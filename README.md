@@ -29,7 +29,7 @@ This repository provides personal technical notes and links to RRFS real-time pr
   - [LINK](https://liaofanlin-noaa.github.io/workflow_status/rrfsv2c_change_log.txt) **RRFSv2c Change Log**: Record of experiment configurations and updates.
 - **RRFS Observation Impact Monitor**: Hourly data assimilation diagnostics by RRFS experiment. The monitor currently includes results from the real-time RRFSv2c experiment, which assimilates only conventional observations, and from one-day retrospective experiments for May 27, 2024, which assimilate conventional observations and satellite data from ATMS, CrIS, and GOES-ABI.
   - [LINK](https://liaofanlin-noaa.github.io/rrfs_obs_impact/) **Observation Impact**: Compare observation impact, observation counts, and impact per observation by data type over a selected period.
-  - [LINK](https://liaofanlin-noaa.github.io/rrfs_obs_impact/obs_impact_time_serioes.html) **OMB/OMA Time Series**: Track observation-minus-background (OMB) and observation-minus-analysis (OMA) departures by data type across hourly cycles.
+  - [LINK](https://liaofanlin-noaa.github.io/rrfs_obs_impact/obs_impact_time_series.html) **OMB/OMA Time Series**: Track observation-minus-background (OMB) and observation-minus-analysis (OMA) departures by data type across hourly cycles.
 
 Additional experiment notes and change logs may be linked here as they become publicly available.
 
